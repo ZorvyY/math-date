@@ -4,7 +4,7 @@
   "3": "\\sqrt{16}-\\sqrt{1}",
   "4": "\\sqrt{25}-\\sqrt{1}",
   "5": "\\sqrt{36}-\\sqrt{1}",
-  "6": "\\sqrt{49}-\\sqrt{1}",
+  "6": "\\left (\\int_{0}^{1}\\left ( \\int_{0}^{x}x dx \\right )dx \\right)^{-1}",
   "7": "\\sqrt{64}-\\sqrt{1}",
   "8": "\\sqrt{81}-\\sqrt{1}",
   "9": "\\sqrt{100}-\\sqrt{1}",
