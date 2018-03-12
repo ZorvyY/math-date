@@ -10,7 +10,7 @@ async function loadExpression () {
   var date = new Date();
   var dateBox = document.getElementById("date");
   var html = `${moment().format('MMMM ') +
-          katex.renderToString(expressionList[6]) +
+          katex.renderToString(expressionList[moment().date()]) +
           moment().format(', YYYY')}`;
   dateBox.innerHTML = html;
   console.log(expressionList);
