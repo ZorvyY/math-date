@@ -1,14 +1,36 @@
-.main {
-    color: #f00;
+@import url('https://fonts.googleapis.com/css?family=Amiri');
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: lightblue url('https://picsum.photos/2000/1000/?random') no-repeat fixed center
+}
+
+#center {
+    /* Centering div */
+    background-color: rgba(0,0,0,0.5);
+
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    /* My own code */
+    color: #fff;
     font-size: 32px;
-    font-family: 'Comic Sans MS';
+    font-family: 'Amiri', serif;
     text-align: center;
     top: 50%;
     left: 50%;
 }
 
 #date {
-    font-size: 64px;
+    font-size: 2em;
 }
 
 .katex {
