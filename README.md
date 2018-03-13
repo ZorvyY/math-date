@@ -6,3 +6,5 @@ students have to evaluate in order to get the date of the month. I decided the p
 only every weekday isn't enough. The end goal is to solve a ridiculous every time I open a new tab. 
 
 I'll start by making a webpage that will mimic the behaviour of the chrome extension I hope to eventually make.
+
+*Pull requests are appreciated. My CSS needs help.*
