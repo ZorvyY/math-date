@@ -1,7 +1,7 @@
 //var expressionList = require("./expressions.js");
 
 async function loadExpression () {
-  var data = await fetch('https://zorvyy.github.io/math-date/expressions.json')
+  var data = await fetch('https://zorvyy.github.io/math-date/expressions.json', {cache: "no-store"})
   .then(response => response.text());
   console.log(data);
   let expressionList = JSON.parse(data);
